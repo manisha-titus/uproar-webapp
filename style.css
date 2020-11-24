@@ -135,6 +135,10 @@ button {
 	background-color: rgba(156, 165, 236, 0.1);
 }
 
+.section-logo a {
+	display: inline-block;
+}
+
 .section-logo img {
 	vertical-align: middle;
 	height: 38px;
@@ -146,7 +150,7 @@ button {
 	font-weight: 600;
 }
 
-.section-logo span:last-child {
+.section-logo .version {
 	background-color: var(--secondary-color);
 	padding: 4px 8px;
 	border-radius: 5px;
