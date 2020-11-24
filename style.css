@@ -435,22 +435,29 @@ input:checked + .slider:before {
 }
 
 /*main-content*/
-.pagination button {
-	vertical-align: top;
+.pagination span {
+	display: inline-block;
 	margin-right: 10px;
+	background-color: var(--highlight-color);
+	padding: 7px 15px;
+	border-radius: 4px;
 }
 
-.pagination div {
+.pagination button {
 	border: 1px solid var(--border-color);
 	border-radius: 4px;
 	height: 30px;
 	width: 30px;
-	display: inline-block;
-	position: relative;
+	background-color: transparent;
+	padding: 0 2px;
 }
 
-.pagination div:last-child {
+.pagination button:last-child {
 	margin-left: 5px;
+}
+
+.pagination .angle-icon {
+	vertical-align: middle;
 }
 
 .next {
